@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<head>
+  <script type="text/javascript" src="/files/theme/math.js"></script>
+</head>
+
+<html>
+  <body>
+    <p>α:</p>
+    <input type="number" id="sines-alpha" value="90" min="0" />
+
+    <p>b:</p>
+    <input type="number" id="sines-b" value="10"  min="1" />
+
+    <p>β:</p>
+    <input type="number" id="sines-beta" value="20"  min="0" />
+
+    <div style="display: flex">
+      <p>a =&#xA0</p>
+      <p id="sines-result"></p>
+    </div>
+    <input type="button" onclick="sines()" value="Display" />
+  </body>
+</html>
