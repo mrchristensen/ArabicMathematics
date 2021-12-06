@@ -1,8 +1,3 @@
-function hello() {
-  ret = "hello";
-  document.getElementById("result").textContent = ret;
-}
-
 function square() {
   a = parseInt(document.getElementById("square-a").value, 10);
   b = parseInt(document.getElementById("square-b").value, 10) / a;
@@ -23,4 +18,12 @@ function sines() {
 
   ret = (b * Math.sin(alpha)) / Math.sin(beta);
   document.getElementById("sines-result").textContent = ret;
+}
+
+function parabola() {
+  a = parseInt(document.getElementById("parabola-a").value, 10);
+  b = parseInt(document.getElementById("parabola-b").value, 10);
+
+  ret = (4 / 3) * ((a * b) / 2);
+  document.getElementById("parabola-result").textContent = ret;
 }
