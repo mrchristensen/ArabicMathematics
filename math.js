@@ -27,3 +27,10 @@ function parabola() {
   ret = (4 / 3) * ((a * b) / 2);
   document.getElementById("parabola-result").textContent = ret;
 }
+
+function gravity() {
+  h = parseInt(document.getElementById("gravity-h").value, 10);
+
+  ret = h / 3;
+  document.getElementById("gravity-result").textContent = ret;
+}
