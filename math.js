@@ -17,7 +17,7 @@ function sines() {
   b = parseInt(document.getElementById("sines-b").value, 10);
   beta = parseInt(document.getElementById("sines-beta").value, 10);
 
-  // Convert radians to degrees
+  // Convert radians to degrees - https://www.w3resource.com/javascript-exercises/javascript-math-exercise-34.php
   alpha *= Math.PI / 180;
   beta *= Math.PI / 180;
 
